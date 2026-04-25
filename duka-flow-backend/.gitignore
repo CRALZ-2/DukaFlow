@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment secrets
+.env
+
+# Uploads (user-generated content)
+uploads/*
+!uploads/.gitkeep
+!uploads/logos/.gitkeep
+!uploads/products/.gitkeep
+!uploads/receipts/.gitkeep
+
+# Prisma migrations (generated)
+prisma/migrations/
+
+# Logs
+*.log
+logs/
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
